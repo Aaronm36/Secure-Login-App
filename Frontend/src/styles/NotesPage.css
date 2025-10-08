@@ -1,0 +1,104 @@
+/* NotesPage.css */
+
+.notes-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notes-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #333;
+}
+
+.note-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.note-form input {
+  flex: 1;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.note-form input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.note-form button {
+  padding: 12px 20px;
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.note-form button:hover {
+  background: #357abd;
+}
+
+.note-item {
+  background: #f7f8fa;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.note-item .note-meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.note-item div {
+  display: flex;
+  gap: 10px;
+}
+
+.note-item button {
+  padding: 6px 12px;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.note-item button:hover {
+  background: #c0392b;
+}
+
+.note-item a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-size: 14px;
+  align-self: center;
+}
+
+.note-item a:hover {
+  text-decoration: underline;
+}
